@@ -1,0 +1,21 @@
+{
+  "apis": {
+    "pidem": {
+      "api_url": "https://api.pidem.com.tr/v1/send-sms",
+      "username": "YOUR_PIDEM_USERNAME",
+      "password": "YOUR_PIDEM_PASSWORD",
+      "originator": "YOUR_PIDEM_ORIGINATOR"
+    },
+    "kahvedunyasi_wmf": {
+      "api_url": "https://core.kahvedunyasi.com:443/api/users/sms/send"
+    }
+  },
+  "proxies": [
+    "http://user:pass@proxy1.example.com:8080"
+  ],
+  "settings": {
+    "default_message": "Bu bir test mesajıdır.",
+    "default_threads": 5,
+    "default_delay": 1
+  }
+}
